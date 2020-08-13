@@ -18,3 +18,4 @@ class String
     self.split(/[!?.]/).length
   end
 end
+binding.pry
