@@ -14,7 +14,7 @@ class String
     self.end_with?("!")
   end
 
-  def count_sentences(string_ex)
+  def count_sentences
     # counted_array = []
     # counted_array <<
     self.split(/[!?.]/).length
