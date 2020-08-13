@@ -15,10 +15,10 @@ class String
   end
 
   def count_sentences
-    #self.split(/[!?.]/).length
-    self.split(/[!?.]/)
-    self.delete("")
-    self.length
+    self.split(/[!?.]/).length
+    # self.split(/[!?.]/)
+    # self.delete("")
+    # self.length
     #self.reject { |sentences| sentences == "" || sentences == " " }
   end
 end
